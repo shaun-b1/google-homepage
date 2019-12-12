@@ -1,0 +1,42 @@
+.Main{
+  text-align: center;
+  padding-bottom: 35px;
+}
+.logo{
+  height: 233px;
+  margin-top: 89px;
+  display: inline-block;
+}
+img#googlelogo {
+  height: 91px;
+  width: 272px;
+  padding-top: 109px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+#input_field {
+  border: 0.5px solid #e6e6e6;
+  border-radius: 18px;
+  padding: 10px;
+  margin: 10px;
+  width: 470px;
+  text-indent: 35px;
+  background: url(search-24px.svg) no-repeat 10px center;
+}
+#input_field:hover {
+  box-shadow: darkgray 1px 1px 3px;
+}
+button {
+  border: 0.5px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(224, 224, 224);
+  width: 120px;
+}
+button a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
