@@ -1,3 +1,8 @@
+body {
+  font-family: arial,sans-serif;
+  color: #222;
+  font-size: small;
+}
 .Main{
   text-align: center;
   padding-bottom: 35px;
@@ -36,7 +41,63 @@ button {
   background: rgb(224, 224, 224);
   width: 120px;
 }
+button:hover {
+  border: 0.5px solid black;
+  background: rgb(243, 243, 243);
+}
 button a {
   text-decoration: none;
   color: rgb(100, 100, 100);
+}
+ul {
+  list-style-type: none;
+  height: 36px;
+  padding-left: 40px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+li {
+  display: inline;
+  padding-right: 10px;
+
+}
+#left-menu {
+  position: absolute;
+  top: 12px;
+  left: -15px;
+}
+#right-menu {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+#left-menu li {
+  height: 30px;
+}
+li a {
+  text-decoration: none;
+  padding-right: 5px;
+  color: #222;
+}
+li a:hover {
+  text-decoration: underline;
+}
+button#sign_in {
+  width: 80px;
+  background: rgb(37, 130, 236);
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  border-radius: 3px;
+}
+button#sign_in:hover {
+  border: 0.5px solid #e6e6e6;
+}
+#sign_in a{
+  font-weight: bold;
+  color: white;
+}
+li img {
+  position: relative;
+  top: 8px;
 }
